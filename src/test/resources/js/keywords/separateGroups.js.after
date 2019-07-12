@@ -1,5 +1,6 @@
 // we allow groupable statements when they're a different keyword
 function test(arr) {
-    const [x, , , aa] = arr;
+    const x = arr[0];
     var [, y, z] = arr;
+    const aa = arr[3];
 }
