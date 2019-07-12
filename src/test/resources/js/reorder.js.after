@@ -1,0 +1,3 @@
+// support groupable yet out-of-order assignments
+const arr = [];
+const [a, , , b] = arr;

@@ -1,0 +1,4 @@
+// we allow statements that have no side-effects on `arr` or any destructure target
+const arr = [];
+const [a, b] = arr;
+const x = 15;

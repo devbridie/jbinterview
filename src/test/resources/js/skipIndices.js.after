@@ -1,0 +1,3 @@
+// skip indices: [a,,,b] should be legal
+const arr = [];
+const [a, , , b] = arr;
