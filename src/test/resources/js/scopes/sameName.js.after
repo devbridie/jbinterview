@@ -1,0 +1,6 @@
+var arr = [];
+const [a, b] = arr;
+
+function test(arr) {
+    const [,,x, y] = arr;
+}
